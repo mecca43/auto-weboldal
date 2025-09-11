@@ -1,6 +1,6 @@
 body{
     margin: 0px;
-    background-color: rgb(145, 141, 141);
+    background-color: rgb(255, 255, 255);
 }
 
 .navbar {
@@ -78,6 +78,34 @@ hr{
     background-color: black;
     border: solid 1px black;
 }
+
+.kiegcim{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 40px;
+    letter-spacing: 10px;
+    text-shadow: 2px 2px 6px red;
+}
+
+.kiegalcim{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.tarcsak{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+
+.tarcsak img{
+    padding: 0;
+    border-radius: 30px;
+    margin: 0;
+}
+
 
 
 
