@@ -5,8 +5,8 @@ body{
 
 .navbar{
     display: flex;
-    align-items: center;
-    gap: 150px;
+    text-align: right;
+    gap: 80px;
     background-color: black;
     color: white;
     margin: 0px;
