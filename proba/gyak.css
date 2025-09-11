@@ -52,8 +52,8 @@ body {
     margin: 5px 0;
   }
   
-  /* Footer */
-  footer {
+/* Footer */
+footer {
     background: #111;
     color: #ccc;
     padding: 20px;
@@ -65,12 +65,13 @@ body {
   }
   
   footer a {
-    color: #b30000;
+    color: white;             /* alapból fehér */
     text-decoration: none;
     margin: 0 8px;
+    transition: color 0.3s;   /* szép színátmenet */
   }
   
   footer a:hover {
-    text-decoration: underline;
+    color: #b30000;           /* hoverkor vörös */
   }
   
