@@ -3,22 +3,6 @@ body{
     background-color: rgb(145, 141, 141);
 }
 
-<<<<<<< HEAD
-.navbar{
-    display: flex;
-    text-align: right;
-    gap: 80px;
-    background-color: black;
-    color: white;
-    margin: 0px;
-=======
-body {
-    font-family: Arial, sans-serif;
-    background-color: #919191;
->>>>>>> 8f53f0ebee79e4ff6695c429f874dac0735f167d
-}
-
- 
 .navbar {
     display: flex;
     align-items: center;
