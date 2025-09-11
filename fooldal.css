@@ -3,6 +3,7 @@ body{
     background-color: rgb(145, 141, 141);
 }
 
+<<<<<<< HEAD
 .navbar{
     display: flex;
     text-align: right;
@@ -10,40 +11,89 @@ body{
     background-color: black;
     color: white;
     margin: 0px;
+=======
+body {
+    font-family: Arial, sans-serif;
+    background-color: #919191;
+>>>>>>> 8f53f0ebee79e4ff6695c429f874dac0735f167d
 }
 
-img{
+ 
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    padding: 10px 20px;
+}
+
+.logo img {
     height: 80px;
-    width: auto;
-    margin-left: 30px;
+    display: block;
+}
+
+.nav-linkek {
+    display: flex;
+    gap: 40px;
+    margin-right: 20px;
+}
+
+.nav-linkek a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-linkek a:hover {
+    color: red; 
+}
+
+.cim{
+    position: relative;
+    display: inline-block;
+}
+
+.cim img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0;
+}
+
+.cim .szoveg {
+    position:absolute;
+    
+    top: 3%;
+    right: 50%;
+  color: white;
+  font-size: 120px;
+  font-weight: bold;
+  text-shadow: 2px 2px 8px  black;
+  padding: 10px 70px 60px 70px;
+  background-color: rgb(0, 0, 0, 0.6);
+  border-radius: 30px;
+}
+
+.cim .szlogen{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 0px;
+    text-shadow: 2px 2px 8px rgb(255, 2, 2);
 }
 
 h1{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    text-shadow: 2px 2px 4px red;
-    text-align: center;
-    font-size: 100px;
-    margin: 20px;
+    margin:0;
 }
 
-.auto{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    width: 100%;
-    margin-top: 10px;
-    padding: 0 50px;
+hr{
+    margin: 0;
+    padding:0;
+    height: 5px;
+    background-color: black;
+    border: solid 1px black;
 }
 
-.auto #regi{
-    text-align: center;
-}
 
-.auto #uj{
-    text-align: left;
-}
-
-.auto #hibrid{
-    text-align: right
-
-}
 
