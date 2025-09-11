@@ -8,7 +8,8 @@ body {
   
   h1 {
     margin: 20px 0;
-    color: #b30000;
+    color: #000000;
+    text-shadow: 2px 2px 6px #b30000;
   }
   
   .container {
@@ -49,5 +50,27 @@ body {
     font-size: 0.95rem;
     line-height: 1.6;
     margin: 5px 0;
+  }
+  
+  /* Footer */
+  footer {
+    background: #111;
+    color: #ccc;
+    padding: 20px;
+    margin-top: 40px;
+  }
+  
+  footer p {
+    margin: 5px 0;
+  }
+  
+  footer a {
+    color: #b30000;
+    text-decoration: none;
+    margin: 0 8px;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
   }
   
