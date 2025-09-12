@@ -133,31 +133,46 @@ hr{
     display: block;
     border-radius: 10px;
     width: auto;
-    height: 350px;
-    margin-right: 160px;
+    height: 300px;
+    margin-right: 200px;
     
 }
 
 
-.tarcsak p{
+.tarcsak ul{
     position: absolute;
-    font-size: 20px;
+    font-size: 21px;
     color: white;
-    bottom: -6%;
+    bottom: -25%;
+    transform: translateX(120%);
+    line-height: 50px;
 }
 
-.tarcsa1 p{
-    right: 75%;
+
+h3{
+    position: absolute;
+    font-size: 35px;
+    color: white;
+    bottom: -5%;
 }
 
-.tarcsa2 p{
-    right: 43%;
+.tarcsa{
+    position: relative;
+    flex: 1;
+    text-align: center;
 }
 
-.tarcsa3 p{
-    right: 11%;
+.tarcsa1 h3{
+    right: 72%;
 }
 
+.tarcsa2 h3{
+    right: 40%;
+}
+
+.tarcsa3 h3{
+    right: 8%;
+}
 
 
 
