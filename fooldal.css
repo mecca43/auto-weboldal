@@ -129,6 +129,7 @@ hr{
     max-width: 80%;
     margin: 20px auto;
     color: white;
+    cursor: pointer;
 }
 
 .tarcsak img{
@@ -201,15 +202,19 @@ h3{
     background: #111;
     color: white;
     border-radius: 15px;
+    border: 2px solid black;
     padding: 50px 150px 50px 150px;
     width: 250px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.3);
     text-align: center;
-    transition: transform 0.3s;
+    transition: transform 0.3s, box-shadow 0.3s, border-color 0.3s;
+    cursor: pointer;
   }
   
   .card:hover {
     transform: translateY(-5px);
+    border-color: red;
+    box-shadow: 0 8px 20px rgba(255, 0, 0, 0.4);
   }
   
   .card img {
